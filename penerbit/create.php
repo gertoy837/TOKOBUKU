@@ -23,7 +23,7 @@ require "../config.php";
                 <a href="../admin.php">
                     <button class="btn btn-warning btn-sm float-end"><span class="fa fa-arrow-circle-left"></span> Back</button>
                 </a>
-                <h3 class="mb-4 fw-bold">Tambah Data Buku</h3>
+                <h3 class="mb-4 fw-bold">Tambah Data Penerbit</h3>
                 <div class="card">
                     <div class="card-body">
                         <form method="post">
@@ -46,7 +46,7 @@ require "../config.php";
                             </div>
                             <div class="mb-3">
                                 <label for="exampleFormControlTextarea1" class="form-label">Alamat</label>
-                                <textarea class="form-control" name="alamat" id="exampleFormControlTextarea1" cols="30" rows="10"></textarea>
+                                <textarea class="form-control" name="alamat" id="exampleFormControlTextarea1"></textarea>
                             </div>
                             <button type="submit" name="simpan" class="btn btn-primary"><span class="fa fa-save"></span> Simpan</button>
                         </form>

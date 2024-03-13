@@ -53,7 +53,7 @@ $penerbit = mysqli_query($connect, $query);
                                 </div>
                                 <div class="mb-3">
                                     <label for="exampleFormControlTextarea1" class="form-label">Alamat</label>
-                                    <textarea class="form-control" name="alamat" id="exampleFormControlTextarea1" cols="30" rows="10"><?= $data["alamat"] ?></textarea>
+                                    <textarea class="form-control" name="alamat" id="exampleFormControlTextarea1"><?= $data["alamat"] ?></textarea>
                                 </div>
                                 <button type="submit" name="simpan" class="btn btn-success"><span class="fa fa-paper-plane"></span> Simpan</button>
                             </form>
